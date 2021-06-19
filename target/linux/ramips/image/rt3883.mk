@@ -8,7 +8,7 @@ endef
 define Device/asus_rt-n56u
   SOC := rt3662
   BLOCKSIZE := 64k
-  IMAGE_SIZE := 7872k
+  IMAGE_SIZE := 16064k
   IMAGE/sysupgrade.bin += | mkrtn56uimg -s
   DEVICE_VENDOR := Asus
   DEVICE_MODEL := RT-N56U
